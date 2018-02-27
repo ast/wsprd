@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B14D6B61204572A500211468 /* wsprd.c in Sources */ = {isa = PBXBuildFile; fileRef = B14D6B60204572A500211468 /* wsprd.c */; };
+		B14D6B64204573E400211468 /* fano.c in Sources */ = {isa = PBXBuildFile; fileRef = B14D6B63204573E400211468 /* fano.c */; };
+		B14D6B6A2045740F00211468 /* nhash.c in Sources */ = {isa = PBXBuildFile; fileRef = B14D6B682045740F00211468 /* nhash.c */; };
+		B14D6B6D2045742000211468 /* wsprd_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = B14D6B6B2045742000211468 /* wsprd_utils.c */; };
+		B14D6B70204574F100211468 /* wsprsim_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = B14D6B6E204574F100211468 /* wsprsim_utils.c */; };
+		B14D6B722045750500211468 /* metric_tables.c in Sources */ = {isa = PBXBuildFile; fileRef = B14D6B712045750500211468 /* metric_tables.c */; };
+		B14D6B77204577DC00211468 /* libfftw3f.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B14D6B76204577DC00211468 /* libfftw3f.dylib */; };
+		B14D6B79204578F800211468 /* tab.c in Sources */ = {isa = PBXBuildFile; fileRef = B14D6B78204578F800211468 /* tab.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B14D6B52204570D000211468 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B14D6B54204570D000211468 /* wsprd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = wsprd; sourceTree = BUILT_PRODUCTS_DIR; };
+		B14D6B5E204570E000211468 /* meson.build */ = {isa = PBXFileReference; lastKnownFileType = text; path = meson.build; sourceTree = "<group>"; };
+		B14D6B60204572A500211468 /* wsprd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wsprd.c; sourceTree = "<group>"; };
+		B14D6B62204573E400211468 /* fano.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fano.h; sourceTree = "<group>"; };
+		B14D6B63204573E400211468 /* fano.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fano.c; sourceTree = "<group>"; };
+		B14D6B682045740F00211468 /* nhash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nhash.c; sourceTree = "<group>"; };
+		B14D6B692045740F00211468 /* nhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nhash.h; sourceTree = "<group>"; };
+		B14D6B6B2045742000211468 /* wsprd_utils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wsprd_utils.c; sourceTree = "<group>"; };
+		B14D6B6C2045742000211468 /* wsprd_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wsprd_utils.h; sourceTree = "<group>"; };
+		B14D6B6E204574F100211468 /* wsprsim_utils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wsprsim_utils.c; sourceTree = "<group>"; };
+		B14D6B6F204574F100211468 /* wsprsim_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wsprsim_utils.h; sourceTree = "<group>"; };
+		B14D6B712045750500211468 /* metric_tables.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = metric_tables.c; sourceTree = "<group>"; };
+		B14D6B74204576EE00211468 /* libfftw3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfftw3.dylib; path = ../../../../../usr/local/lib/libfftw3.dylib; sourceTree = "<group>"; };
+		B14D6B76204577DC00211468 /* libfftw3f.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfftw3f.dylib; path = ../../../../../usr/local/lib/libfftw3f.dylib; sourceTree = "<group>"; };
+		B14D6B78204578F800211468 /* tab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tab.c; sourceTree = "<group>"; };
+		B1FB5A822045B2E700BEF1AA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B14D6B51204570D000211468 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B14D6B77204577DC00211468 /* libfftw3f.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B14D6B4B204570D000211468 = {
+			isa = PBXGroup;
+			children = (
+				B1FB5A822045B2E700BEF1AA /* README.md */,
+				B14D6B56204570D000211468 /* wsprd */,
+				B14D6B55204570D000211468 /* Products */,
+				B14D6B73204576EE00211468 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B14D6B55204570D000211468 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B14D6B54204570D000211468 /* wsprd */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B14D6B56204570D000211468 /* wsprd */ = {
+			isa = PBXGroup;
+			children = (
+				B14D6B5E204570E000211468 /* meson.build */,
+				B14D6B78204578F800211468 /* tab.c */,
+				B14D6B712045750500211468 /* metric_tables.c */,
+				B14D6B6E204574F100211468 /* wsprsim_utils.c */,
+				B14D6B6F204574F100211468 /* wsprsim_utils.h */,
+				B14D6B6B2045742000211468 /* wsprd_utils.c */,
+				B14D6B6C2045742000211468 /* wsprd_utils.h */,
+				B14D6B682045740F00211468 /* nhash.c */,
+				B14D6B692045740F00211468 /* nhash.h */,
+				B14D6B63204573E400211468 /* fano.c */,
+				B14D6B62204573E400211468 /* fano.h */,
+				B14D6B60204572A500211468 /* wsprd.c */,
+			);
+			path = wsprd;
+			sourceTree = "<group>";
+		};
+		B14D6B73204576EE00211468 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B14D6B76204577DC00211468 /* libfftw3f.dylib */,
+				B14D6B74204576EE00211468 /* libfftw3.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B14D6B53204570D000211468 /* wsprd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B14D6B5B204570D000211468 /* Build configuration list for PBXNativeTarget "wsprd" */;
+			buildPhases = (
+				B14D6B50204570D000211468 /* Sources */,
+				B14D6B51204570D000211468 /* Frameworks */,
+				B14D6B52204570D000211468 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wsprd;
+			productName = wsprd;
+			productReference = B14D6B54204570D000211468 /* wsprd */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B14D6B4C204570D000211468 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Albin Stigo";
+				TargetAttributes = {
+					B14D6B53204570D000211468 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B14D6B4F204570D000211468 /* Build configuration list for PBXProject "wsprd" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B14D6B4B204570D000211468;
+			productRefGroup = B14D6B55204570D000211468 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B14D6B53204570D000211468 /* wsprd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B14D6B50204570D000211468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B14D6B6D2045742000211468 /* wsprd_utils.c in Sources */,
+				B14D6B722045750500211468 /* metric_tables.c in Sources */,
+				B14D6B61204572A500211468 /* wsprd.c in Sources */,
+				B14D6B6A2045740F00211468 /* nhash.c in Sources */,
+				B14D6B79204578F800211468 /* tab.c in Sources */,
+				B14D6B64204573E400211468 /* fano.c in Sources */,
+				B14D6B70204574F100211468 /* wsprsim_utils.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B14D6B59204570D000211468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B14D6B5A204570D000211468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B14D6B5C204570D000211468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B14D6B5D204570D000211468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B14D6B4F204570D000211468 /* Build configuration list for PBXProject "wsprd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B14D6B59204570D000211468 /* Debug */,
+				B14D6B5A204570D000211468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B14D6B5B204570D000211468 /* Build configuration list for PBXNativeTarget "wsprd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B14D6B5C204570D000211468 /* Debug */,
+				B14D6B5D204570D000211468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B14D6B4C204570D000211468 /* Project object */;
+}
